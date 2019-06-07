@@ -4,17 +4,28 @@
         <meta charset="utf-8">
         <title>APCSA REVIEW</title>
         <link rel = "stylesheet" type = "text/css" href = "main.css" />
-        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div class="banner">
-            <h1> APCSA Review </h1>
+            <a href="index.html" target="_blank"><h1>APCSA Review</h1></a>
         </div>
         <div class="banner" id="dummy">
             <h1> APCSA Review </h1>
         </div>
-        <div class="content">
-            <p>This is a paragraph<p>
+        <div class="content-wrap">
+            <div class="content">
+                <h1>Objects</h1> 
+                <p><i>Source: Blue Pelican Java by Charles E. Cook</i></p>
+                <h3>Instantiating an object</h3>
+                <p>When creating an object, use the following format: <br> <strong>className variableName = new className(parameter, parameter);</strong> <br> Some classes also have a default constructor where you don't have to pass in parameters because the default ones are set for you.</p>
+                <h3>Referencing an object's field</h3>
+                <p>When accessing an object's field variables outside its class, the dot operator must be used along with the object's name. For example:<br>
+                <strong>variable = objectName.name;</strong><br>Alternatively, you can "new" to create a new object from a class and access its field: <br>
+                <strong>variable = new className().height;</strong></p>
+                <h3>Calling an object's methods</h3>
+                <p>When calling a method, we also use the dot operator with the object name and method name: <br> <strong>variable = objectName.getName(argument, argument);</strong></p>
+            </div>
         </div>
     </body>
 </html>
