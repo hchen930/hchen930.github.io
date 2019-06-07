@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>APCSA REVIEW</title>
         <link rel = "stylesheet" type = "text/css" href = "main.css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div class="banner">
@@ -13,8 +13,67 @@
         <div class="banner" id="dummy">
             <h1> APCSA Review </h1>
         </div>
-        <div class="content">
-            <p>This is a paragraph<p>
+        <div class="content-wrap">
+            <div class="content">
+                <h1>Boolean Expression & If Statements</h1> 
+                <p><i>Source: Blue Pelican Java by Charles E. Cook</i></p>
+                <h3>List of boolean expressions (in order)</h3>
+                <ol>
+                    <li>! (not)</li>
+                    <li>== (equals)</li>
+                    <li>!= (not equal to)</li>
+                    <li>&& (and)</li>
+                    <li>|| (or)</li>
+                </ol>
+                <p>When multiple boolean expressions are in the same line, Java will execute them in the precedence listed above. Alternatively, you can always use parenthesis to give first precedence.</p>
+                <table>
+                    <tr>
+                        <th>a</th>
+                        <th>b</th>
+                        <th>a&&b</th>
+                    </tr>
+                    <tr>
+                        <td>false</td>
+                        <td>false</td>
+                        <td>false</td>
+                    </tr>
+                    <tr>
+                        <td>false</td>
+                        <td>true</td>
+                        <td>false</td>
+                    </tr>
+                    <tr>
+                        <td>true</td>
+                        <td>true</td>
+                        <td>true</td>
+                    </tr>
+                </table>                
+                <table>
+                    <tr>
+                        <th>a</th>
+                        <th>b</th>
+                        <th>a||b</th>
+                    </tr>
+                    <tr>
+                        <td>false</td>
+                        <td>false</td>
+                        <td>false</td>
+                    </tr>
+                    <tr>
+                        <td>false</td>
+                        <td>true</td>
+                        <td>true</td>
+                    </tr>
+                    <tr>
+                        <td>true</td>
+                        <td>true</td>
+                        <td>true</td>
+                    </tr>
+                </table>
+                <h3>Using if statements</h3>
+                <p>If statements forms the logic of java. Here's the basic structure of if statements: <br> <strong>if (boolean expressions) {code}</strong> <br> If the boolean expression is true, then the code will be executed. If not, there are more if statement structure available.<br> 
+                    <strong>if (boolean expression) {code} else {alternative code}</strong> <br>if the boolean expression is false in this one, the alternative code is executed.<br> <strong>if (boolean expression){code} else if (alternative boolean expression){alternative code} </strong> <br> Here, the alternative code will excecute is orginal expression is false and alternative expression is true. </p> 
+            </div>
         </div>
     </body>
 </html>

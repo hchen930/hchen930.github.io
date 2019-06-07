@@ -62,9 +62,13 @@ body {
     list-style-position: inside;
     line-height: 2;
     font-size: 1.1em;
-    
 }
 .content h3{
     border-bottom: solid;
     border-top: solid;
+}
+.content table,th,td {
+    width: 50%;
+    border:1px solid black;
+    text-align: center;
 }
