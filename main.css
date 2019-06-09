@@ -40,8 +40,12 @@ body {
     text-align: center;
     margin-top: 5%;
     margin-left: 7%;
-    line-height: 30em;
     text-decoration: none; 
+}
+.topics a h1 {
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
 }
 .topics a :hover {
     color: rgb(234, 39, 39);
