@@ -4,17 +4,26 @@
         <meta charset="utf-8">
         <title>APCSA REVIEW</title>
         <link rel = "stylesheet" type = "text/css" href = "main.css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div class="banner">
-            <a href="index.html" target="_blank"><h1>APCSA Review</h1></a>
+            <a href="index.html"><h1>APCSA Review</h1></a>
         </div>
         <div class="banner" id="dummy">
             <h1> APCSA Review </h1>
         </div>
-        <div class="content">
-            <p>This is a paragraph<p>
+        <div class="content-wrap">
+            <div class="content">
+                <h1>2-D Array</h1> 
+                <p><i>Source: Blue Pelican Java by Charles E. Cook</i></p>
+                <h3>Initializing 2-D Array</h3>
+                <p>Like its name suggests, 2-D arrays are just like arrays, but with both rows and columns. It can be initialized in three ways: <br> <strong>int score[][] = new int[3][2]; //The first bracket indicates the number of rows and the second bracket indicates the number of columns.<br> int score[][] = { {1,2}, {3,6}}; //Initialization and declaration on the same line <br> int score[][] = new int[][] {{2,4}, {6,7}}; //Same as the second method but with extra words. </strong></p>
+                <h3>Rows and Columns</h3>
+                <p>Rows come first and goes horizontally. Columns come second and goes vertically. The length of a row(the amount of columns) can be determined the follwing way: <br> <strong>score[0].length //Returns the length of the first row in score</strong></p>
+                <h3>Ragged Array</h3>
+                <p>Not all rows in a 2-D array have to have the same amount of column. When the amount of column is not the same, the 2-D array is called a ragged array. Ragged arrays are created like this: <br> <strong>int a[][] = new int[2][] //# of rows declared but not column <br> a[0] = new int [4]; //row 0 has 4 columns <br> a[1] = new int [3]; //Row 1 has 3 columns <br> a[2] = new int [1]; // Row 2 has 1 column</strong></p>
+            </div>
         </div>
     </body>
 </html>

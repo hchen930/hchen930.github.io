@@ -8,13 +8,20 @@
     </head>
     <body>
         <div class="banner">
-            <a href="index.html" target="_blank"><h1>APCSA Review</h1></a>
+            <a href="index.html"><h1>APCSA Review</h1></a>
         </div>
         <div class="banner" id="dummy">
             <h1> APCSA Review </h1>
         </div>
-        <div class="content">
-            <p>This is a paragraph<p>
+        <div class="content-wrap">
+            <div class="content">
+                <h1>Array</h1> 
+                <p><i>Source: Blue Pelican Java by Charles E. Cook</i></p>
+                <h3>Creating an Array</h3>
+                <p>An array in Java is used to store multiple variables of the same type in one place. There are three ways to declare and initialize arrays:<strong><ol><li>//Here, the size of the array is stated within the brakcets and cannot be changed<br> int arrayName[] = new int[300];</li><li>//In the second way, the values are inputed directly during while initializing and size will be determined by how many elements are present. <br> int arrayName[] = {23,35,676};</li><li>//The third way is almost the same as the second way<br>int arrayName[] = new int[] {23,35,676};</li></ol></strong></p>
+                <h3>Accessing and Changing Values in Array</h3>
+                <p>To access a value stored in an array, we have to specify its index. Note that index of array starts at 0 instead of 1. <br> <strong>//Here, the value at the fourth container in arr is stored in value<br> int value = arr[3];</strong><br> Since the length of arrays can't be changed, we can only modify existing variables in the array and not add new ones. <br> <strong>arr[3] = 6; //change the value stored in array index 3 to 6</strong> </p>
+            </div>
         </div>
     </body>
 </html>

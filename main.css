@@ -72,3 +72,13 @@ body {
     border:1px solid black;
     text-align: center;
 }
+.content strong {
+    background-color: #ffffcc;
+    padding: 0.3em;
+}
+#iter {
+    height: 100vh;
+}
+#bigboi {
+    font-size: 10em;
+}

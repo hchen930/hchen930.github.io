@@ -4,17 +4,25 @@
         <meta charset="utf-8">
         <title>APCSA REVIEW</title>
         <link rel = "stylesheet" type = "text/css" href = "main.css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div class="banner">
-            <a href="index.html" target="_blank"><h1>APCSA Review</h1></a>
+            <a href="index.html"><h1>APCSA Review</h1></a>
         </div>
         <div class="banner" id="dummy">
             <h1> APCSA Review </h1>
         </div>
-        <div class="content">
-            <p>This is a paragraph<p>
+        <div class="content-wrap">
+            <div class="content">
+                <h1>Inheritance</h1> 
+                <p><i>Source: Blue Pelican Java by Charles E. Cook</i></p>
+                <h3>Subclass and Superclass</h3>
+                <p>BankAccount is an example of a superclass. SavingsAccount is an example of a subclass because it is a type of BankAccound and inherits all of BankAccount's properties and methods while being a unique and specific type of BankAccount. Subclasses can inherit from superclass by using the keyword "extends": <br> <strong>public class SavingsAcount extends BankAccount{}</strong> <br>Subclasses can construct a superclass object by using super(parameters) in its own constructor method.</p>
+                <h3>Overriding and Shadowing</h3>
+                <p>When the same method is declared twice in both the superclass and the subclass, objects made from the subclass will use the subclass method. Within subclass methods, overrident superclass methods can only be accessed using the super keyword again: <br> <strong>super.overridentMethodName(123);</strong></p>
+                <p>Shadowing happens when state variables in both the superclass and the subclass share the same name. In this case, objects created from the subclass takes priority again. It is possible to still access the superclass variable by creating a getter method in the superclass: <br> <strong>public int getX () {return X;}</strong></p>
+            </div>
         </div>
     </body>
 </html>
